@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+#arrow-icon{
+    display: flex;
+    align-items: start;
+    margin: 10px;
+}
+
+#arrow:hover{
+    cursor: pointer;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0px 200px;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+   /* text-align: left; */
+}
+
+label {
+    margin: 10px 200px 10px 0px  ;
+
+}
+
+input {
+    padding: 2px 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+
+small {
+    display: block;
+    margin-top: -15px;
+    margin-bottom: 16px;
+    color: #555;
+}
+
+
+
+textarea {
+    max-width: 100%;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.hobbies {
+    margin-bottom: 10px;
+    
+}
+
+select {
+    /* width: 100%; */
+    padding: 1px 3px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn1{
+    margin-left: 300px;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+#btn1:hover {
+    background-color:#4c9d4f ;
+}
+#btn2:hover {
+    background-color:#f85b4f ;
+}
+
